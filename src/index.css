@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.loginBox{
+  width: 400px;
+  height: 260px;
+  padding: 16px;
+  position: fixed;
+  top: 50%;
+  right: 150px;
+  transform: translate(0, -50%);
+  box-shadow: 0 2px 6px #999;
+  border-radius: 8px;
+}
+.primary{
+  color: dodgerblue;
+}
