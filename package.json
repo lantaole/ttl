@@ -10,6 +10,7 @@
     "@types/node": "^16.18.31",
     "@types/react": "^18.2.6",
     "@types/react-dom": "^18.2.4",
+    "@types/redux-logger": "^3.0.9",
     "antd": "^5.5.0",
     "axios": "^1.4.0",
     "normalize.css": "^8.0.1",
@@ -51,6 +52,8 @@
   },
   "devDependencies": {
     "@types/nprogress": "^0.2.0",
+    "mocker-api": "^2.9.8",
+    "mockjs": "^1.1.0",
     "sass": "^1.62.1",
     "sass-loader": "^13.2.2"
   }

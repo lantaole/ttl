@@ -29,11 +29,7 @@ request.interceptors.response.use(
         }else {
             message.info("请求错误")
         }
-        if(res.status === 200){
-            return res.data
-        }else {
-            return res
-        }
+       return res
     },
     err => {
         Nprogress.done()
